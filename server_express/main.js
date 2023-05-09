@@ -30,7 +30,7 @@ result.stderr.on('data', function(data) {
 const client = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'akashi1220^^',
+    password: 'password',
     database: 'playlist'
 });
 const mainPage = fs.readFileSync('./sub.ejs', 'utf8');
